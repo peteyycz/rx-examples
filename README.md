@@ -1,4 +1,6 @@
-# rx-examples
+# RX Angular examples
+
+Slides are available at: https://docs.google.com/presentation/d/1F0eIx5oXKv0lY8crb6fAyTBZ66GJz9Jl5_H0DYSEwVI
 
 ## To try out yourself
 
