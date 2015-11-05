@@ -5,11 +5,11 @@ var Rx = require('rx')
 function getAsyncComments () {
   return Rx.Observable.from([{
     sender: 'Joey',
-    content: 'React sucks',
+    content: 'Angular rocks',
     likes: 19
   }, {
     sender: 'Mary',
-    content: 'Angular rocks',
+    content: 'React sucks',
     likes: 49
   }])
 }
