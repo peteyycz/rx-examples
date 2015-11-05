@@ -1,3 +1,5 @@
+// Interactive
+
 function getComments () {
   return [{
     sender: 'Joey',

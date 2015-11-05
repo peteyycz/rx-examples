@@ -1,4 +1,18 @@
+// Reactive
+
 var Rx = require('rx')
+
+function getAsyncComments () {
+  return Rx.Observable.from([{
+    sender: 'Joey',
+    content: 'React sucks',
+    likes: 19
+  }, {
+    sender: 'Mary',
+    content: 'Angular rocks',
+    likes: 49
+  }])
+}
 
 /* Comments will be PUSHED to us once they are made (websocket, RSS whatever) */
 var source = getAsyncComments()
@@ -20,15 +34,3 @@ var subscription = source
 
 /* When we're done */
 subscription.dispose()
-
-function getAsyncComments () {
-  return Rx.Observable.from([{
-    sender: 'Joey',
-    content: 'React sucks',
-    likes: 19
-  }, {
-    sender: 'Mary',
-    content: 'Angular rocks',
-    likes: 49
-  }])
-}
