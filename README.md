@@ -10,13 +10,13 @@ Node and NPM installed
 
 ### Steps
 
-1. Clone the project
+1) Clone the project
 ```bash
 git clone git@github.com:peteyy/rx-examples.git
 cd rx-examples
 ```
 
-2. Install dependencies with npm
+2) Install dependencies with npm
 ```bash
 npm install
 ```
