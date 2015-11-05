@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/angular/angular.min.js" charset="utf-8"></script>
+    <script src="../node_modules/rx/dist/rx.all.min.js" charset="utf-8"></script>
+    <script src="../node_modules/rx-angular/dist/rx.angular.min.js" charset="utf-8"></script>
+    <script src="./index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container" data-ng-app="example" data-ng-controller="AppCtrl">
+      <h2>Reactive Angular</h2>
+      <ul class="list-unstyled">
+        <li>Containing a: {{containA}}</li>
+        <li>Containing b: {{containB}}</li>
+      </ul>
+      <input type="text" data-ng-model="name" />
+    </div>
+  </body>
+</html>
