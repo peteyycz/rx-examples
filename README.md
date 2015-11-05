@@ -16,7 +16,7 @@ git clone git@github.com:peteyy/rx-examples.git
 cd rx-examples
 ```
 
-1. Install dependencies with npm
+2. Install dependencies with npm
 ```bash
 npm install
 ```
